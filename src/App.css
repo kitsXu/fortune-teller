@@ -68,3 +68,11 @@ color:antiquewhite;
 background-color: antiquewhite;
 
 }
+
+.fortuneSelect {
+  display: flex;
+  gap:50px;
+  margin:auto;
+  justify-content: center;
+  z-index: 3;
+}
