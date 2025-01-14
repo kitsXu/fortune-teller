@@ -1,4 +1,4 @@
-import fortuneTellerColors from "./images/fortuneColors.png/";
+import fortuneTellerColors from "../images/fortuneColors.png";
 
 export default function FortuneColors() {
   return (

@@ -1,4 +1,4 @@
-import fortuneTellerOdd from "./images/fortuneOdd.png/";
+import fortuneTellerOdd from "../images/fortuneOdd.png/";
 
 export default function FortuneOdd() {
   return (
