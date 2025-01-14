@@ -1,6 +1,6 @@
 import FortuneEven from "./components/FortuneEven.jsx";
-import FortuneOdd from "./components/fortuneOdd.jsx";
-import FortuneColors from "./components/fortuneColors.jsx";
+import FortuneOdd from "./components/FortuneOdd.jsx";
+import FortuneColors from "./components/FortuneColors.jsx";
 
 import "./App.css";
 import { useState } from "react";
