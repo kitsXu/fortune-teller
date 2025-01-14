@@ -6,26 +6,27 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-
   const [fortuneState, setFortuneState] = useState("colors");
 
-function red() {
-  setFortuneState("even");
-  setFortuneState("colors");
-  setFortuneState("odd");
-}
+  function red() {
+    event.preventDefault();
+    setFortuneState("even");
+    setTimeout(() => { setFortuneState("colors");}, 300);
+    setTimeout(() => { setFortuneState("odd");}, 500);
+    setTimeout(() => { setFortuneState("colors");}, 1000);
+    setTimeout(() => { setFortuneState("even");}, 1200);
+  }
 
   return (
     <>
-    {fortuneState === "colors" && <FortuneColors />}
-    {fortuneState === "even" && <FortuneEven />}
-    {fortuneState === "odd" && <FortuneOdd />}
+      {fortuneState === "colors" && <FortuneColors />}
+      {fortuneState === "even" && <FortuneEven />}
+      {fortuneState === "odd" && <FortuneOdd />}
 
-    <form>
-      <input></input>
-      <button onClick={red}>go!</button>
-    </form>
-
+      <form className="fortuneSelect">
+        <input></input>
+        <button onClick={red}>go!</button>
+      </form>
     </>
   );
 }
