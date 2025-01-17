@@ -11,10 +11,11 @@ function App() {
   function red() {
     event.preventDefault();
     setFortuneState("even");
-    setTimeout(() => { setFortuneState("colors");}, 300);
-    setTimeout(() => { setFortuneState("odd");}, 500);
-    setTimeout(() => { setFortuneState("colors");}, 1000);
-    setTimeout(() => { setFortuneState("even");}, 1200);
+    setTimeout(() => { setFortuneState("colors");}, 500);
+    setTimeout(() => { setFortuneState("odd");}, 700);
+    setTimeout(() => { setFortuneState("colors");}, 1200);
+    setTimeout(() => { setFortuneState("even");}, 1400);
+
   }
 
   return (
