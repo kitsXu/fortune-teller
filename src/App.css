@@ -43,6 +43,10 @@
   background: hsla(56, 33%, 60%, 0.842);
 }
 
+.tonySolah {
+  height:600px;
+}
+
 .gallery {
   display:flex;
   flex: 0 0 calc(100% / 3);

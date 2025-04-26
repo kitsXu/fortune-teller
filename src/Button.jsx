@@ -1,4 +1,6 @@
 import { useEffect } from "react"
+import tonySolah from './images/tonySolah.png'
+import './App.css'
 
 export default function Button() {
 
@@ -14,6 +16,7 @@ export default function Button() {
     <> 
   <div className='title'>Holy Pokes!!!!</div>
   <div className='subTitle'>LEVEL 3000</div>
+  <img className='tonySolah' src={tonySolah} />
     </>
   )
 }
