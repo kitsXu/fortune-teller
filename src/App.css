@@ -3,76 +3,54 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.fortuneImageEven {
-  display: block;
-  /* position:absolute; */
-  top: 225px;
-  height:500px;
-  z-index: 2;
-}
-
-.fortuneImageOdd {
-  display: block;
-  /* position:absolute; */
-  top: 225px;
-  height:500px;
-  z-index: 2;
-}
-
-.topSquareWrapper {
-  display: flex;
-  flex-direction: row;
-  margin:auto;
+  align-items: center;
   justify-content: center;
-  gap:10px;
-  z-index: 1;
+  display:flex;
+  flex-direction: column;
 }
 
-.bottomSquareWrapper {
-  display: flex;
-  flex-direction: row;
-  margin:auto;
+.title {
+  font-size: 50px;
+}
+
+.subTitle {
+  font-size: 100px;
+}
+
+.pokeMe {
+  position: absolute;
+  height: 75px;
+  width: 300px;
+  border-color: white;
+}
+
+.pokeMe:active {
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px hsl(244, 45%, 22%);
+  -moz-box-shadow: inset 0px 0px 5px hsl(244, 45%, 22%);
+  box-shadow: inset 0px 0px 5px hsl(244, 45%, 22%);
+  text-shadow: none;
+  outline: none;
+}
+
+.pokeMe:hover,
+.pokeMe:focus-visible {
+  color: #e3edfc;
+  background: hsla(56, 33%, 60%, 0.842);
+}
+
+.gallery {
+  display:flex;
+  flex: 0 0 calc(100% / 3);
+  width: 75.33%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
   justify-content: center;
-  gap:10px;
-  margin-top: 10px;
-  z-index: 1;
+  align-items: center;
 }
 
-.squareOne{
-height: 150px;
-width: 150px;
-color:antiquewhite;
-background-color: antiquewhite;
+.image {
+  height: 140px;
 }
 
-.squareTwo{
-  height: 150px;
-  width: 150px;
-color:antiquewhite;
-background-color: antiquewhite;
-
-}
-.squareThree{
-  height: 150px;
-  width: 150px;
-color:antiquewhite;
-background-color: antiquewhite;
-
-}
-.squareFour{
-  height: 150px;
-  width: 150px;
-color:antiquewhite;
-background-color: antiquewhite;
-
-}
-
-.fortuneSelect {
-  display: flex;
-  gap:50px;
-  margin:auto;
-  justify-content: center;
-  z-index: 3;
-}
