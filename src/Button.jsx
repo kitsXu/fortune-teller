@@ -6,7 +6,7 @@ export default function Button() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      alert('were you looking for something dirty? Maybe in your email later ;)')
+      alert('Were you expecting something dirty? Maybe in your email later ;)')
     }, 2000)
 
     return () => clearTimeout(timer)

@@ -49,8 +49,7 @@
 
 .gallery {
   display:flex;
-  flex: 0 0 calc(100% / 3);
-  width: 75.33%;
+  flex: 1 1 calc(33% / 3);
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 20px;
